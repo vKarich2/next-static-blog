@@ -10,7 +10,7 @@ const AuthorsPage = () => {
 			<WelcomeBlock {...welcomeData.authors} />
 			<div>
 				<h2 className="font-bold mb-[60px]">Our Authors</h2>
-				<AuthorsList authors={authors} />;
+				<AuthorsList authors={authors} />
 			</div>
 		</div>
 	)
