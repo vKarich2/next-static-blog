@@ -1,0 +1,30 @@
+{
+	"home": {
+		"title": "WHERE IDEAS MEET INSIGHTS",
+		"description": "We hope you find something here that interests you. If you have any questions, please feel free to contact us."
+	},
+	"blog": {
+		"title": "BLOG",
+		"description": "Welcome to our blog! We inspire and inform, offering unique insights into contemporary topics from experts across various fields"
+	},
+	"about": {
+		"title": "ABOUT US",
+		"description": "Here you can find all about us, our team, and our mission."
+	},
+	"works": {
+		"title": "OUR WORKS",
+		"description": "Here you can find all our works, from books to articles, and more. You can also find here GitHub repositories and other resources."
+	},
+	"authors": {
+		"title": "OUR AUTHORS",
+		"description": "Here you can find all our authors, and their works. You can also find their social media profiles and contact information."
+	},
+	"contact": {
+		"title": "CONTACT US",
+		"description": "We would love to hear from you! Please fill out the form below and we will get back to you as soon as possible."
+	},
+	"404": {
+		"title": "ERROR 404",
+		"description": "The page you are looking for does not exist. Please check the URL and try again."
+	}
+}

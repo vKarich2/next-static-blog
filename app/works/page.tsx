@@ -1,7 +1,15 @@
-export default function Works() {
+import WelcomeBlock from "@/components/WelcomeBlock";
+import welcomeData from "@/data/welcomeData.json";
+
+const Works = () => {
 	return (
-		<div className="flex text-3xl justify-center mt-10">
-			<h1>Works</h1>
+		<div className="flex flex-col text-3xl justify-center mt-[100px]">
+			<WelcomeBlock {...welcomeData.works} />
+			<div>
+				<h2 className="font-bold mb-[60px]">Our Works</h2>
+			</div>
 		</div>
 	);
 }
+
+export default Works;
