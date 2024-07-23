@@ -1,7 +1,7 @@
 ---
 title: "The Evolution of Artificial Intelligence: Shaping Tomorrow"
 description: "Dive into the enigmatic world of dark matter and its crucial role in the universe. Learn about recent discoveries, ongoing research, and the technological advancements"
-date: "15-05-2024"
+date: "2022-02-15"
 category: "Travel"
 author: "vladyslav-karapetov"
 image: "https://images.unsplash.com/photo-1721241843448-af1c8ade1835?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

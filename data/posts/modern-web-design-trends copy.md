@@ -2,7 +2,7 @@
 title: "The Influence of Social Media: Connecting the Global Community"
 description: "An overview of the latest trends in web design to keep your projects fresh and engaging"
 category: "Design"
-date: "15-05-2024"
+date: "2022-06-19"
 author: "ivan-ivanov"
 image: "https://images.unsplash.com/photo-1721079993152-426d6d0a5489?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---

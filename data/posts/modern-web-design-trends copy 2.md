@@ -3,7 +3,7 @@ title: "The Rise of Smart Cities: Innovating Urban Living"
 
 description: "An overview of the latest trends in web design to keep your projects fresh and engaging"
 category: "Design"
-date: "15-05-2024"
+date: "2024-09-25"
 author: "ivan-ivanov"
 image: "https://images.unsplash.com/photo-1721240074674-35a47e1bdb13?q=80&w=1878&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---

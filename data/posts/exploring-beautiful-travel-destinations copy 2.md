@@ -1,7 +1,7 @@
 ---
 title: "The Rise of Quantum Computing: Transforming the Future"
 description: "Dive into the enigmatic world of dark matter and its crucial role in the universe. Learn about recent discoveries, ongoing research, and the technological advancements"
-date: "15-05-2024"
+date: "2024-04-13"
 category: "Travel"
 author: "vladyslav-karapetov"
 image: "https://images.unsplash.com/photo-1715464502547-4c5e6880ab6e?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

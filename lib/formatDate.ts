@@ -4,7 +4,7 @@ function formatDate(dateString: string): string {
     return "Incorrect date";
   }
 
-  const [dayStr, monthStr, yearStr] = dateParts;
+  const [yearStr, monthStr, dayStr] = dateParts;
   const day = parseInt(dayStr, 10);
   const month = parseInt(monthStr, 10) - 1;
   const year = parseInt(yearStr, 10);

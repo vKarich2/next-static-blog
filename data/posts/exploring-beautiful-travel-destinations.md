@@ -1,7 +1,7 @@
 ---
 title: "The Impact of Blockchain Technology: Revolutionizing Industries"
 description: "Dive into the enigmatic world of dark matter and its crucial role in the universe. Learn about recent discoveries, ongoing research, and the technological advancements"
-date: "15-05-2024"
+date: "2023-05-08"
 category: "Travel"
 author: "vladyslav-karapetov"
 image: "https://images.unsplash.com/photo-1718301162350-fddcdafa19bc?q=80&w=2039&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

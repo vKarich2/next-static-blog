@@ -2,7 +2,7 @@
 title: "Modern Web Design Trends"
 description: "An overview of the latest trends in web design to keep your projects fresh and engaging"
 category: "Design"
-date: "15-05-2024"
+date: "2021-06-26"
 author: "ivan-ivanov"
 image: "https://images.unsplash.com/photo-1721296381825-426cfb4dc450?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---

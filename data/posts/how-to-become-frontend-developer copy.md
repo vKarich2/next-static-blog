@@ -2,7 +2,7 @@
 title: "The Progress of Autonomous Vehicles: Driving the Future"
 description: "Explore the groundbreaking advancements in quantum computing and their potential to revolutionize industries. Discover how this cutting-edge technology is set to transform the future of computing and beyond"
 category: "Development"
-date: "15-05-2024"
+date: "2024-07-11"
 author: "stepan-stepanov"
 image: "https://images.unsplash.com/photo-1719937206109-7f4e933230c8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---

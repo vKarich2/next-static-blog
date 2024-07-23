@@ -34,6 +34,8 @@ export function getPosts(): Post[] {
     return parsePost(fileContents);
   });
 
+  posts.sort((a, b) => a.date < b.date ? 1 : -1);
+
   return posts;
 }
 

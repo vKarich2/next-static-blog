@@ -1,9 +1,14 @@
-import Image from "next/image";
+import RecentPosts from "@/components/RecentPosts"
+import { getPosts } from "@/lib/posts"
 
 export default function Home() {
+  const recentPosts = getPosts();
   return (
     <div className="flex justify-center text-3xl mt-10">
-      <Image className="w-screen bg-slate-200" src="" alt="logo" width={200} height={200} />
+      <div>
+        <h2 className="font-bold mb-[60px]">Recent Posts</h2>
+        <RecentPosts posts={recentPosts} />
+      </div>
     </div>
   );
 }
