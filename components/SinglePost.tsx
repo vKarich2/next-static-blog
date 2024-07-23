@@ -16,11 +16,11 @@ const SinglePost: React.FC<SinglePostProps> = ({ post }: SinglePostProps) => {
 				<div className="absolute flex flex-col justify-center w-screen h-[398px] bottom-0 right-2/4 translate-x-2/4 bg-[#444444] bg-opacity-70 dark:bg-white dark:bg-opacity-70 backdrop-blur-sm z-50">
 					<div className="mx-auto px-[60px] w-[1320px]">
 						<div className="flex justify-between items-center">
-							<h6 className="text-[#c6c6c6] dark:text-[#444444]">{post.category}</h6>
+							<h6 className="text-[#c6c6c6] dark:text-black">{post.category}</h6>
 							<div className="flex items-center gap-x-3">
-								<h6 className="text-[#c6c6c6] dark:text-[#444444]">{formatDate(post.date)}</h6>
-								<div className="w-[3px] h-[3px] bg-[#c6c6c6] dark:bg-[#444444] rounded-full"></div>
-								<h6 className="text-[#c6c6c6] dark:text-[#444444]">{(post as any).readingTime}</h6>
+								<h6 className="text-[#c6c6c6] dark:text-black">{formatDate(post.date)}</h6>
+								<div className="w-[3px] h-[3px] bg-[#c6c6c6] dark:bg-black rounded-full"></div>
+								<h6 className="text-[#c6c6c6] dark:text-black">{(post as any).readingTime}</h6>
 							</div>
 						</div>
 						<h1 className="text-white dark:text-black text-4xl font-bold mt-[45px]">{post.title}</h1>
