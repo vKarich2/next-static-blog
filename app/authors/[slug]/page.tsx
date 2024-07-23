@@ -19,7 +19,7 @@ const AuthorPage: React.FC<AuthorPageProps> = ({ params }: AuthorPageProps) => {
 	return (
 		<div className="flex flex-col items-center">
 			<SingleAuthor author={author} />
-			<div className="prose mt-20" dangerouslySetInnerHTML={{ __html: author.contentHTML }} />
+			<div className="prose mt-20" dangerouslySetInnerHTML={{ __html: ((author as any).contentHTML) || "" }} />
 		</div>
 	);
 };
