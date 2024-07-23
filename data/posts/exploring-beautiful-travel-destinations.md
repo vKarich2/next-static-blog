@@ -1,5 +1,5 @@
 ---
-title: "The Rise of Quantum Computing: Transforming the Future"
+title: "The Impact of Blockchain Technology: Revolutionizing Industries"
 description: "Dive into the enigmatic world of dark matter and its crucial role in the universe. Learn about recent discoveries, ongoing research, and the technological advancements"
 date: "15-05-2024"
 category: "Travel"

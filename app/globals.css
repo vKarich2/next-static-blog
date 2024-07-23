@@ -15,6 +15,7 @@
 
 body{
   transition: .3s ease-in-out;
+  overflow-x: hidden;
 }
 
 a {
@@ -113,6 +114,7 @@ p{
 .dark h1, 
 .dark h2, 
 .dark h3, 
+.dark strong,
 .dark .prose h1, 
 .dark .prose h2, 
 .dark .prose h3 {

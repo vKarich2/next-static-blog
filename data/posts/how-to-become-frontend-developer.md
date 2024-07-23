@@ -1,5 +1,5 @@
 ---
-title: "How to become a frontend developer"
+title: "The Expansion of Space Exploration: Beyond Our Planet"
 description: "Explore the groundbreaking advancements in quantum computing and their potential to revolutionize industries. Discover how this cutting-edge technology is set to transform the future of computing and beyond"
 category: "Development"
 date: "15-05-2024"

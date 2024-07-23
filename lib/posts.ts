@@ -5,8 +5,25 @@ import { Post } from "@/types/Post";
 import { Author } from "@/types/Author";
 import { slugify } from "@/lib/slugify";
 import { marked } from "marked";
+import readingTime from "@/lib/readingTime";
 
 const postsDirectory = path.join(process.cwd(), "data/posts");
+
+function parsePost(fileContents: string): Post {
+  const { data, content } = matter(fileContents);
+  return {
+    id: data.id as string,
+    title: data.title as string,
+    description: data.description as string,
+    date: data.date as string,
+    image: data.image as string,
+    category: data.category as string,
+    author: data.author as Author,
+    slug: slugify(data.title as string),
+    contentHTML: content ? marked.parse(content) : undefined,
+    readingTime: readingTime(content).text,
+  } as Post;
+}
 
 export function getPosts(): Post[] {
   const fileNames = fs.readdirSync(postsDirectory);
@@ -14,20 +31,8 @@ export function getPosts(): Post[] {
   const posts = fileNames.map((fileName) => {
     const filePath = path.join(postsDirectory, fileName);
     const fileContents = fs.readFileSync(filePath, "utf-8");
-    const { data } = matter(fileContents);
-    return {
-      id: data.id as string,
-      title: data.title as string,
-      description: data.description as string,
-      date: data.date as string,
-      image: data.image as string,
-      category: data.category as string,
-      author: data.author as Author,
-      slug: slugify(data.title as string),
-    } as Post;
+    return parsePost(fileContents);
   });
-
-  
 
   return posts;
 }
@@ -38,19 +43,9 @@ export function getPostBySlug(slug: string): Post | null {
   for (const fileName of fileNames) {
     const filePath = path.join(postsDirectory, fileName);
     const fileContents = fs.readFileSync(filePath, "utf-8");
-    const { data, content } = matter(fileContents);
-    if (slugify(data.title as string) === slug) {
-      return {
-        id: data.id as string,
-        title: data.title as string,
-        description: data.description as string,
-        date: data.date as string,
-        image: data.image as string,
-        category: data.category as string,
-        author: data.author as Author,
-        slug: slugify(data.title as string),
-        contentHTML: marked.parse(content),
-      } as Post;
+    const post = parsePost(fileContents);
+    if (post.slug === slug) {
+      return post;
     }
   }
 

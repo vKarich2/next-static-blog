@@ -1,5 +1,6 @@
 ---
-title: "Modern Web Design Trends"
+title: "The Rise of Smart Cities: Innovating Urban Living"
+
 description: "An overview of the latest trends in web design to keep your projects fresh and engaging"
 category: "Design"
 date: "15-05-2024"

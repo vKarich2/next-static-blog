@@ -10,17 +10,27 @@ interface SinglePostProps {
 
 const SinglePost: React.FC<SinglePostProps> = ({ post }: SinglePostProps) => {
 	return (
-		<div className="relative">
-			<Image src={post.image} alt={post.title} title={post.title} layout="fill" objectFit="cover" className="w-full h-full object-cover" />
-			<div className="absolute bottom-4 left-4 bg-white bg-opacity-80 p-4 rounded">
-				<h2 className="text-xl font-bold">{post.title}</h2>
-				<h6 className="text-sm text-gray-600">{post.category}</h6>
-				<p className="mt-2">{post.description}</p>
-				<p className="mt-2 text-sm">Posted on {formatDate(post.date)}</p>
-				<p className="mt-2 text-sm">By <Link href={`/authors/${post.author.slug}`} className="text-blue-500">{post.author.fullname}</Link></p>
+		<div className="w-full mb-10">
+			<div className="relative w-[1320px] h-[775px]">
+				<Image className="z-10" src={post.image} alt={post.title} title={post.title} layout="fill" objectFit="cover" />
+				<div className="absolute flex flex-col justify-center w-screen h-[398px] bottom-0 right-2/4 translate-x-2/4 bg-[#444444] bg-opacity-70 dark:bg-white dark:bg-opacity-70 backdrop-blur-sm z-50">
+					<div className="mx-auto px-[60px] w-[1320px]">
+						<div className="flex justify-between items-center">
+							<h6 className="text-[#c6c6c6] dark:text-[#444444]">{post.category}</h6>
+							<div className="flex items-center gap-x-3">
+								<h6 className="text-[#c6c6c6] dark:text-[#444444]">{formatDate(post.date)}</h6>
+								<div className="w-[3px] h-[3px] bg-[#c6c6c6] dark:bg-[#444444] rounded-full"></div>
+								<h6 className="text-[#c6c6c6] dark:text-[#444444]">{(post as any).readingTime}</h6>
+							</div>
+						</div>
+						<h1 className="text-white dark:text-black text-4xl font-bold mt-[45px]">{post.title}</h1>
+						<h3 className="text-[#c6c6c6] dark:text-[#444444] text-lg font-light mt-[35px]">{post.description}</h3>
+					</div>
+				</div>
 			</div>
+			
 		</div>
-	);
+	)
 }
 
 export default SinglePost;
